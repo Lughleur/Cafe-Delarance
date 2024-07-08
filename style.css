@@ -1,0 +1,212 @@
+* {
+    margin:0;
+    border:0;
+    padding:0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1F0000;
+    color:#F1DAC1;
+}
+header{
+    display:block;
+    position:-webkit-sticky; position:sticky; top:0;
+    background-color: #1F0000;
+    height: 110px;
+    text-align: center;
+    z-index:1;
+}
+main {
+  margin-top: 50px;
+}
+#logo{
+  display:inline-block;
+  position:absolute;
+  width:40px;
+  height:40px;
+  left:70px;
+}
+
+#ShopName{
+  display:inline-block;
+  position:absolute;
+  font-size: 25px;
+  left:190px;
+}
+.nav-link {
+  display:inline-block;
+  top:45px;
+  font-size:20px;
+  padding:3px;
+  border:2px solid black;
+  border-color: #cf905d;
+  border-radius: 12%;
+}
+#Accueil{
+  position:relative;
+  left: -50px;
+}
+#Menu{
+position: relative;
+left:-15px;
+}
+#Services{
+position:relative;
+right:-25px;
+}
+#Contact{
+position:relative;
+right:-55px;
+}
+#image1{
+  width:600px;
+}
+.container{
+  padding: 48px;
+}
+#image2{
+  width:500px;
+}
+h2{
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:25px;
+}
+#image3{
+  width:500px;
+}
+
+.custom-br {
+  display:block;
+  width: 100%;
+  height: 5px;
+  background-color: #F1DAC1;
+  margin:8px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+.text{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.contact{
+  display:inline-block;
+  position:relative;
+  top:3px;
+  left:10px;
+  font-size:15px;
+}
+#Réseau{
+  display:inline-block;
+  position:absolute;
+  top:5px;
+  right:30px;
+  font-size:30px;
+}
+#CGV{
+  display:inline-block;
+  position:relative;
+  top:5px;
+  left:180px;
+}
+.fa{
+  display:inline-block;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height:95px;
+  background-color: #454747;
+  color:#F1DAC1;
+}
+/* unvisited link */
+a:link {
+    color:#F1DAC1;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #F1DAC1;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #c99d6d;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #F1DAC1;
+    text-decoration: none;
+  }
+@media only screen and (min-width: 601px) {
+  
+    #logo{
+      width:80px;
+      height: 70px;
+      left:10px;
+      
+    }
+    #ShopName{
+        font-size: 40px;
+        left:9%;
+    }
+    .nav-link {
+      font-size:30px;
+      top:60px;
+    }
+    #Accueil{
+      position:relative;
+      left: -80px;
+  }
+  #Menu{
+    position: relative;
+    left:-25px;
+  }
+  #Services{
+    position:relative;
+    right:-35px;
+  }
+  #Contact{
+    position:relative;
+    right:-75px;
+  }
+  .imgshort{
+    position:relative;
+    width:50%;
+    height:50vh;
+    left:300px
+  }
+    footer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height:115px;
+      background-color: #454747;
+      color:#F1DAC1;
+    }
+    #Réseau{
+      display:inline-block;
+      position:absolute;
+      font-size:25px;
+      top:10px;
+      right:70px;
+      scale:1.5;
+    }
+    .contact{
+      position:absolute;
+      font-size:18px;
+    }
+    #CGV{
+      top:90px;
+      left:610px;
+    }
+}
