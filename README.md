@@ -1,3 +1,2 @@
 # Cafe-Delarance
-my first website
-fiction website about a coffeeshop
+my first fiction website about a coffee shop in Paris
